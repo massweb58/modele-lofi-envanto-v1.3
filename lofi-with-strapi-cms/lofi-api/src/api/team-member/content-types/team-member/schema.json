@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "Team Member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "OUR EXPERTS",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Meet Our Leadership Preparing For Your Success",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team.member"
+    }
+  }
+}

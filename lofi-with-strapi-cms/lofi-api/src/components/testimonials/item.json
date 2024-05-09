@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_testimonials_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "feedbackText": {
+      "type": "text",
+      "required": true
+    },
+    "rating": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rating.item"
+    }
+  }
+}

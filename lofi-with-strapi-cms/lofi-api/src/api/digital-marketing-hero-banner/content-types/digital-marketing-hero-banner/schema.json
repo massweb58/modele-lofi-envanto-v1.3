@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "digital_marketing_hero_banners",
+  "info": {
+    "singularName": "digital-marketing-hero-banner",
+    "pluralName": "digital-marketing-hero-banners",
+    "displayName": "Digital Marketing - Hero Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "AWARD WINNING COMPANY",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Make Your Business More Money With Team Of Experts",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started Now",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

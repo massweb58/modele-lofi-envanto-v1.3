@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "technology_solutions_about_uses",
+  "info": {
+    "singularName": "technology-solutions-about-us",
+    "pluralName": "technology-solutions-about-uses",
+    "displayName": "Technology Solutions - About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "ABOUT US",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We Are Award Winning Digital Marketing Company",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": false,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-features-list.item"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "More About Us",
+      "required": true
+    },
+    "btnUrl": {
+      "type": "string",
+      "default": "/about-us",
+      "required": true
+    }
+  }
+}

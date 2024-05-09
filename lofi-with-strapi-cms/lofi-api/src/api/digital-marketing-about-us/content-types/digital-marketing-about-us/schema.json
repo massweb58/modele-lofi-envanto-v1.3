@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "digital_marketing_about_uses",
+  "info": {
+    "singularName": "digital-marketing-about-us",
+    "pluralName": "digital-marketing-about-uses",
+    "displayName": "Digital Marketing - About Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "ABOUT US",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We Are Award Winning Digital Marketing Company",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "featuresList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-features-list.item"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "More About Us",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/about-us",
+      "required": true
+    }
+  }
+}

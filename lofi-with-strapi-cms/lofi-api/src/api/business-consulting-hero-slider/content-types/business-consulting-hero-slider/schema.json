@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_consulting_hero_sliders",
+  "info": {
+    "singularName": "business-consulting-hero-slider",
+    "pluralName": "business-consulting-hero-sliders",
+    "displayName": "Business Consulting - Hero Slider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sliderITems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero-slider.item"
+    }
+  }
+}

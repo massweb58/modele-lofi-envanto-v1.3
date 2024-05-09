@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "awards",
+  "info": {
+    "singularName": "award",
+    "pluralName": "awards",
+    "displayName": "Award",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "awardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.item"
+    },
+    "title": {
+      "type": "string",
+      "default": "AWARDS AND INDUSTRY RECOGNITION",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "partners",
+  "info": {
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "Partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subzTitle": {
+      "type": "string",
+      "required": true,
+      "default": "OUR PARTNERS"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "A Trusted Partner For Ambitious Brands"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true,
+      "default": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. It is a long established fact that a reader will be distracted by the."
+    },
+    "partnersList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.item"
+    }
+  }
+}

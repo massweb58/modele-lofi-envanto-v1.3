@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_accordion_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "uuid": {
+      "type": "string",
+      "required": true,
+      "default": "a"
+    }
+  }
+}

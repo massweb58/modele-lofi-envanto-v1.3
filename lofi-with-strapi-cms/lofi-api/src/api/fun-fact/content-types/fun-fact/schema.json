@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "fun_facts",
+  "info": {
+    "singularName": "fun-fact",
+    "pluralName": "fun-facts",
+    "displayName": "Fun Fact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "funfactsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fun-facts.item"
+    }
+  }
+}

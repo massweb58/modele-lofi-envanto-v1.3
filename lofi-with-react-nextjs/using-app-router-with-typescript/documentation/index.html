@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lofi - Multipurpose IT Startup React Nextjs Template</title>
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="50">
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#introduction" title="Getting Started">Getting Started</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a></li>
+                <li><a href="#production_build">Production Build</a></li>
+                <li><a href="#documenter_cover">Pages and Components Info</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#global_color" title="Global Color Options">Global Color Options</a></li>
+                <li><a href="#fonts_used" title="Fonts">Fonts</a></li>
+                <li><a href="#run_scss_file" title="Color Change Option">SCSS File</a></li> 
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+
+        <header class="site-header navbar-transparent"> 
+            <div class="banner auto-size" style="background-color: #455aa2">
+                <div class="container-fluid">
+                    <h1><strong>Lofi - React</strong> Documentation</h1>
+                </div>
+            </div>
+        </header>
+        
+        <main class="container-fluid"> 
+            <article class="main-content" role="main">
+                <section id="introduction">
+                    <div class="page-header">
+                        <h3>Getting Started</h3>
+                    </div>
+					<p>Welcome to Lofi React Next.js template! We would like to thank you, for buy our template - Lofi.</p>
+                    <p> Lofi is a React Next.js and Bootstrap 5 based Multipurpose template. This has been built with React and as framework Next.js!</p>
+                </section>
+			 
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Setup Development Environment</h3>
+                    </div>
+                    <p>
+                        To kickstart the development of the web app with Lofi, at first need to setup the react development environment.
+                    </p>
+                    <p>Following tools are needed to setup a react dev environment:</p>
+                    <ul>
+                        <li><b>Node JS</b></li>
+                        <p>
+                            NodeJS works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from its official site <a href="https://nodejs.org/en/" target="_blank">https://nodejs.org/en/</a>
+                        </p>
+                    </ul>
+                    
+                    <div class="page-header">
+                        <h3>Install The NPM Packages</h3>
+                    </div>
+                    <p>
+                        NPM : You must have to <b>npm install</b> packages. You can do this by running <b>npm install</b> from the root of your project to install all the necessary dependencies.
+                    </p>
+					<p>Then run : <code class="language-markup">npm install</code></p>
+					
+					<div class="page-header">
+                        <h3>Development Server</h3>
+                    </div>
+                    <p>
+                        Run <b>npm run dev</b> for a dev server. Then, in the browser go to <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>
+                    </p>
+                    <p>Then run : <code class="language-markup">npm run dev</code></p>
+                </section>
+				
+				<section id="production_build">
+					<div class="page-header">
+                        <h3>For Production Build</h3>
+                    </div>
+					<p>Run <b>npm run build</b> to build the project.</p>
+                    <p>Run : <code class="language-markup">npm run build</code></p>
+                    <p>Then Run : <code class="language-markup">npm run start</code></p>
+                    <p>See the official next.js doc <a href="https://nextjs.org/docs/deployment#other-hosting-options" target="_blank">here</a></p>
+ 
+				</section>
+
+                <section id="documenter_cover">
+                    <div class="page-header">
+                        <h3>Pages and Components Info</h3>
+                    </div>
+                    
+                    <div id="documenter_buttons"></div>
+					<ul>
+						<li>Technology Solutions Home (<b>/src/app/page.tsx</b>)</li>
+						<li>Digital Marketing Home (<b>src/app/digital-marketing/page.tsx</b>)</li>
+						<li>Business Consulting Home (<b>src/app/business-consulting/page.tsx</b>)</li>
+						<li>Cybersecurity Services Home (<b>src/app/cybersecurity-services/page.tsx</b>)</li>
+						<li>Crypto Startup Home (<b>src/app/crypto-startup/page.tsx</b>)</li>
+						<li>ICO Landing Home (<b>src/app/ico-landing/page.tsx</b>)</li>
+                        <li>About Us (<b>src/app/about-us/page.tsx</b>)</li>
+                        <li>Services (<b>src/app/blog/services/page.tsx</b>)</li>
+                        <li>Services Details (<b>src/app/blog/services/details/page.tsx</b>)</li>
+                        <li>Blog (<b>src/app/blog/blog/page.tsx</b>)</li>
+                        <li>Contact (<b>src/app/contact/page.tsx</b>)</li>
+                        <li>and more...</li>
+					</ul>
+		
+                    <h6 style="margin-top:20px"><strong>Common Components:</strong></h6>
+                    <ul>
+						<li>Navbar (<b>src/components/Layout/Navbar/Navbar.tsx</b>)</li>
+						<li>Navbar Style 2 (<b>src/components/Layouts/Navbar/NavbarStyle2.tsx</b>)</li>
+						<li>Navbar (<b>src/components/CryptoStartup/Navbar.tsx</b>)</li>
+						<li>Footer (<b>src/components/CryptoStartup/Footer.tsx</b>)</li>
+                        <li>Navbar (<b>src/components/CybersecurityServices/Navbar.tsx</b>)</li>
+						<li>Footer (<b>src/components/CybersecurityServices/Footer.tsx</b>)</li>
+                        <li>Navbar (<b>src/components/ICOLanding/Navbar.tsx</b>)</li>
+						<li>Footer (<b>src/components/ICOLanding/Footer.tsx</b>)</li>
+						<li>NavbarStyle1 (<b>src/components/Layouts/Footer/Footer.tsx</b>)</li>
+						<li>ScrollToTop (<b>src/components/Layouts/ScrollToTop.tsx</b>)</li>
+					</ul>
+                </section>
+
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies</h3>
+                    </div>
+                    <p> Here are the <strong>dependencies</strong> list which being used in the Lofi React Template:</p>
+                    <pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+    "aos": "^2.3.4",
+    "fslightbox-react": "^1.7.6",
+    "next": "14.2.2",
+    "react": "^18",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18",
+    "swiper": "^11.1.1"
+},
+"devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/fslightbox-react": "^1.7.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "typescript": "^5"
+}
+</code>
+                    </pre class="brush:css">
+                </section>
+				 
+			   
+				<section id="global_color">
+                    <div class="page-header">
+                        <h3>Global Color Options</h3>
+                    </div>
+					<p>To change global color options file path /styles/style.scss</p>
+					
+					<img src="img/scss.png">
+					
+					<p style="margin-top: 15px;"><b>Note:</b> After SCSS file run then it will be work</p>
+                </section>
+		 
+				<section id="run_scss_file">
+                    <div class="page-header">
+                        <h3>How to Run The SCSS File</h3>
+                    </div>
+                    
+					<p>Please open the file Visual Studio Code Editor. And follow the video tutorial.</p>
+					<p>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></p>
+                </section>
+			  
+                <section id="supports">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">24-Hour Turnaround Support:</h3>
+                    </div>
+					 
+					<p>Quick, Dedicated & Professional Support!</p>
+					
+					<p>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.envytheme.com/" target="_blank">EnvyTheme Support System</a>.</p>
+					
+					<p>For any pre-purchase query, please use live chat on the item demo site also, email, and the item’s comment section on ThemeForest. Thanks!</p>
+                </section>
+            </article>
+        </main>
+ 
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; Lofi. All right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu">
+                            <li><a href="https://support.envytheme.com/" target="_blank">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

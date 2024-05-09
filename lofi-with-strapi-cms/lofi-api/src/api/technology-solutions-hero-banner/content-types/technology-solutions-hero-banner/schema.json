@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "technology_solutions_hero_banners",
+  "info": {
+    "singularName": "technology-solutions-hero-banner",
+    "pluralName": "technology-solutions-hero-banners",
+    "displayName": "Technology Solutions - Hero Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "AWARD WINNING COMPANY",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Let's Make Wave Amazing Together",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started Now",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "mainImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,702 @@
+body, html {
+  direction: rtl;
+}
+
+.shape4 {
+  right: auto;
+  left: 3%;
+}
+
+.top-header-start .search-box {
+  margin-left: 0;
+  margin-right: 60px;
+}
+.top-header-start .search-box label {
+  left: auto;
+  right: 15px;
+}
+.top-header-start .search-box .input-search {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.top-header-end .social-links {
+  padding: 0;
+}
+.top-header-end .number {
+  margin-right: 0;
+  margin-left: 15px;
+  padding-right: 0;
+  padding-left: 15px;
+}
+.top-header-end .number::before {
+  right: auto;
+  left: 0;
+}
+.top-header-end .number a i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.navbar-area .navbar .navbar-nav {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+  padding: 0;
+}
+.navbar-area .navbar .navbar-nav .nav-item .dropdown-toggle {
+  padding-right: 0;
+  padding-left: 14px;
+}
+.navbar-area .navbar .navbar-nav .nav-item .dropdown-toggle::before {
+  right: auto;
+  left: -2px;
+}
+.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.navbar-area .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  text-align: right;
+}
+
+.about-content .features-list {
+  padding: 0;
+}
+.about-content .features-list li span {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.single-services-box h3 {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.single-services-box .features-list {
+  padding: 0;
+}
+.single-services-box .features-list li span {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.single-services-box .features-list li span i {
+  left: auto;
+  right: 0;
+}
+
+.single-case-studies-box .content .features-list {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.team-slides .swiper-button-next {
+  right: auto;
+  left: 0;
+}
+.team-slides .swiper-button-prev {
+  left: auto;
+  right: 0;
+}
+
+.single-footer-widget h3::before {
+  left: auto;
+  right: 0;
+}
+.single-footer-widget ul {
+  padding: 0;
+}
+.single-footer-widget .newsletter-form {
+  padding-right: 0;
+  padding-left: 25px;
+}
+.single-footer-widget .newsletter-form form .input-newsletter {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.single-footer-widget .newsletter-form form button {
+  right: auto;
+  left: 0;
+}
+.single-footer-widget .social-links li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.single-footer-widget .social-links li:last-child {
+  margin-left: 0;
+}
+
+.copyright-area ul {
+  padding: 0;
+}
+.copyright-area ul li {
+  margin-left: 0;
+  margin-right: 15px;
+  margin-right: 0;
+  margin-left: 32px;
+}
+.copyright-area ul li:last-child {
+  margin-left: 0;
+}
+.copyright-area ul li::before {
+  left: auto;
+  right: -23px;
+}
+
+.scroll-to-top {
+  right: auto;
+  left: 20px;
+}
+
+.header-style-two .navbar-area .navbar .navbar-nav {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.single-services-item h3 {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.single-services-item .features-list {
+  padding: 0;
+}
+.single-services-item .features-list li span {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.single-services-item .features-list li span i {
+  left: auto;
+  right: 0;
+}
+
+.about-img {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.single-feedback-item::before {
+  right: auto;
+  left: 30px;
+}
+.single-feedback-item .client-info img {
+  margin-right: 0;
+  margin-left: 18px;
+}
+
+.single-process-box p {
+  padding-right: 0;
+  padding-left: 25px;
+}
+
+.team-section-title {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.team-member-list {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.feedback-slides .swiper-button-prev {
+  left: auto;
+  right: 0;
+}
+.feedback-slides .swiper-button-next {
+  right: auto;
+  left: 0;
+}
+
+.single-funfacts-box {
+  padding-left: 0;
+  padding-right: 120px;
+}
+.single-funfacts-box .icon {
+  left: auto;
+  right: 15px;
+}
+
+.single-feedback-box::before {
+  right: auto;
+  left: 30px;
+}
+.single-feedback-box .client-info img {
+  margin-right: 0;
+  margin-left: 18px;
+}
+
+.subscribe-inner .newsletter-form .input-newsletter {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.top-header-black-social-links li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.top-header-black-social-links li:last-child {
+  margin-left: 0;
+}
+
+.top-header-black-info li {
+  margin-right: 0;
+  margin-left: 20px;
+  padding-left: 0;
+  padding-right: 22px;
+}
+.top-header-black-info li i {
+  left: auto;
+  right: 0;
+}
+.top-header-black-info li:last-child {
+  margin-left: 0;
+}
+
+.navbar-area.navbar-area-with-position-relative .navbar .navbar-nav {
+  margin-right: auto !important;
+}
+
+.what-we-work-content {
+  padding-left: 0;
+  padding-right: 35px;
+}
+.what-we-work-content .we-work-inner-box {
+  padding: 30px 122px 30px 30px;
+}
+.what-we-work-content .we-work-inner-box .image {
+  left: auto;
+  right: 30px;
+}
+
+.why-choose-us-content .list li {
+  padding-left: 0;
+  padding-right: 22px;
+}
+.why-choose-us-content .list li i {
+  left: auto;
+  right: 0;
+}
+
+.single-pricing-card .price h4 span {
+  left: 0;
+  right: 0;
+  margin-left: 5px;
+}
+.single-pricing-card .features-list ul {
+  padding: 0;
+}
+.single-pricing-card .features-list ul li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+.single-pricing-card .features-list ul li i {
+  left: auto;
+  right: 0;
+}
+
+.team-member-card .team-image .social-btn {
+  right: auto;
+  left: 20px;
+}
+
+.cyber-safety-content .safety-list li {
+  padding: 15px 35px 15px 15px;
+}
+.cyber-safety-content .safety-list li i {
+  left: auto;
+  right: 15px;
+}
+
+.blog-style-card .blog-content .meta li {
+  margin-right: auto;
+  margin-left: 30px;
+}
+.blog-style-card .blog-content .meta li:last-child {
+  margin-left: 0;
+}
+.blog-style-card .blog-content .meta li::before {
+  right: auto;
+  left: -23px;
+}
+
+.footer-style-area .single-footer-widget .footer-contact-info li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+.footer-style-area .single-footer-widget .footer-contact-info li i {
+  left: auto;
+  right: 0;
+}
+.footer-style-area .single-footer-widget p {
+  padding-right: 0;
+  padding-left: 25px;
+}
+.footer-style-area .single-footer-widget .info {
+  padding-left: 0;
+  padding-right: 45px;
+}
+.footer-style-area .single-footer-widget .info i {
+  left: auto;
+  right: 0;
+}
+
+.value-trade-card {
+  padding: 10px 32px 10px 0;
+}
+.value-trade-card img {
+  left: auto;
+  right: 0;
+}
+
+.cryptocurrency-banner-content .banner-btn-list li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.cryptocurrency-banner-content .banner-btn-list li:last-child {
+  margin-left: 0;
+}
+.cryptocurrency-banner-content .banner-community ul li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.cryptocurrency-banner-content .banner-community ul li:last-child {
+  margin-left: 0;
+}
+
+.cryptocurrency-about-content {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.cryptocurrency-about-content .about-list li {
+  padding-left: 0;
+  padding-right: 22px;
+}
+.cryptocurrency-about-content .about-list li i {
+  left: auto;
+  right: 0;
+}
+
+.text-start {
+  text-align: right !important;
+}
+
+.pre-token-sale-ends-content .pre-token-sale-ends-btn li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.pre-token-sale-ends-content .pre-token-sale-ends-btn li:last-child {
+  margin-left: 0;
+}
+
+.platforms-item .arrow-image {
+  right: auto;
+  left: -85px;
+}
+
+.cryptocurrency-choose-content {
+  padding-left: 0;
+  padding-right: 35px;
+}
+.cryptocurrency-choose-content .choose-inner-box {
+  padding: 30px 118px 30px 30px;
+}
+.cryptocurrency-choose-content .choose-inner-box .image {
+  left: auto;
+  right: 30px;
+}
+
+.invest-content .invest-inner-box {
+  padding: 30px 118px 30px 30px;
+}
+.invest-content .invest-inner-box .image {
+  left: auto;
+  right: 30px;
+}
+
+.download-app-content .app-list li {
+  margin-right: auto;
+  margin-left: 20px;
+}
+.download-app-content .app-list li:last-child {
+  margin-left: 0;
+}
+
+.contact-us-inner-box .get-in-touch-information .information-list li {
+  padding-left: 0;
+  padding-right: 32px;
+}
+.contact-us-inner-box .get-in-touch-information .information-list li i {
+  left: auto;
+  right: 0;
+}
+
+.footer-widget-style-wrap .social-links li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.footer-widget-style-wrap .social-links li:last-child {
+  margin-left: 0;
+}
+
+.ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.ico-landing-banner-content .banner-pre-token-sale-ends .pre-token-sale-ends-btn li:last-child {
+  margin-left: 0;
+}
+
+.ico-about-content .about-list li {
+  padding-left: 0;
+  padding-right: 22px;
+}
+.ico-about-content .about-list li i {
+  left: auto;
+  right: 0;
+}
+
+.ico-choose-content {
+  padding-right: 0;
+  padding-left: 35px;
+}
+.ico-choose-content .choose-inner-box {
+  padding: 30px 100px 30px 30px;
+  border-left: none;
+  border-right: 2px solid var(--mainColor);
+}
+.ico-choose-content .choose-inner-box .image {
+  left: auto;
+  right: 30px;
+}
+
+.token-distribution-card .distribution-list.without-wrap {
+  margin-left: 0;
+  margin-right: 50px;
+}
+
+.ico-faq-accordion .accordion .accordion__item {
+  border-left: none;
+  border-right: 2px solid var(--mainColor);
+}
+.ico-faq-accordion .accordion .accordion__item .accordion__button {
+  padding-right: 25px;
+  padding-left: 50px;
+}
+.ico-faq-accordion .accordion .accordion__item .accordion__button:before {
+  right: auto;
+  left: 15px;
+}
+
+.page-title-content ul {
+  padding: 0;
+}
+.page-title-content ul li {
+  margin-right: 0;
+  margin-left: 22px;
+}
+.page-title-content ul li:last-child {
+  margin-left: 0;
+}
+.page-title-content ul li::before {
+  right: auto;
+  left: -18px;
+}
+
+.single-pricing-box .features-list ul {
+  padding: 0;
+}
+.single-pricing-box .features-list ul li {
+  padding-left: 0;
+  padding-right: 22px;
+}
+.single-pricing-box .features-list ul li i {
+  left: auto;
+  right: 0;
+}
+
+.case-studies-details-header .content .meta {
+  padding: 0;
+}
+.case-studies-details-header .content .meta li {
+  border: none;
+  margin-left: 0;
+  margin-right: 30px;
+  padding-left: 0;
+  padding-right: 45px;
+}
+.case-studies-details-header .content .meta li i {
+  left: auto;
+  right: 0;
+}
+
+.single-pricing-box .ribbon span {
+  font-size: 12px;
+  left: -12px;
+  top: 20px;
+}
+
+.blog-details-header .content p {
+  padding-right: 0;
+  padding-left: 50px;
+}
+
+.blog-details-header .content .post-author-meta .title {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+blockquote cite, .blockquote cite {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.blog-details-desc .article-content .wp-block-gallery.columns-3 {
+  padding: 0;
+}
+.blog-details-desc .article-content .article-tags a {
+  margin-right: 0;
+  margin-left: 8px;
+}
+.blog-details-desc .article-content .article-tags a:last-child {
+  margin-left: 0;
+}
+.blog-details-desc .comment-respond .comment-form .form-group label {
+  left: auto;
+  right: 10px;
+}
+
+.contact-form .form-group label {
+  left: auto;
+  right: 10px;
+}
+
+.form-check {
+  padding-left: 0;
+  padding-right: 1.5em;
+}
+.form-check .form-check-input {
+  margin-left: 0;
+  margin-right: -1.5em;
+  float: right;
+}
+
+.copyright-area ul li {
+  margin-right: 35px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .top-header-start .search-box {
+    margin: auto;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+  .navbar-area .navbar .navbar-nav {
+    padding-left: 15px;
+  }
+  .navbar-area .navbar .others-option {
+    right: auto;
+    left: 60px;
+  }
+  .single-blog-post .image .date {
+    padding-left: 0;
+    padding-right: 25px;
+  }
+  .single-blog-post .image .date::before {
+    left: auto;
+    right: 0;
+  }
+  .about-img {
+    padding-left: 0;
+  }
+  .team-member-list {
+    padding-left: 0;
+  }
+  .team-section-title {
+    padding-right: 0;
+  }
+  .single-funfacts-box {
+    padding-right: 0;
+  }
+  .single-funfacts-box .icon {
+    left: auto;
+    right: auto;
+  }
+  .what-we-work-content {
+    padding-right: 0;
+  }
+  .what-we-work-content .we-work-inner-box {
+    padding: 20px;
+  }
+  .what-we-work-content .we-work-inner-box .image {
+    right: 0;
+  }
+  .cryptocurrency-about-content {
+    padding-right: 0;
+  }
+  .cryptocurrency-choose-content {
+    padding-right: 0;
+  }
+  .cryptocurrency-choose-content .choose-inner-box {
+    padding: 20px;
+  }
+  .cryptocurrency-choose-content .choose-inner-box .image {
+    right: 0;
+  }
+  .invest-content .invest-inner-box {
+    padding: 20px;
+  }
+  .invest-content .invest-inner-box .image {
+    right: 0;
+  }
+  .ico-choose-content .choose-inner-box {
+    padding: 20px;
+  }
+  .ico-choose-content .choose-inner-box .image {
+    right: 0;
+  }
+  .token-distribution-card .distribution-list.without-wrap {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top-header-start .search-box {
+    margin-right: 0;
+  }
+  .navbar-area .navbar .navbar-nav {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+  .about-content .features-list li span {
+    margin-right: 0;
+  }
+  .about-img {
+    padding-left: 0;
+  }
+  .team-member-list {
+    padding-left: 0;
+  }
+  .team-section-title {
+    padding-right: 0;
+  }
+  .cryptocurrency-about-content {
+    padding-right: 0;
+  }
+  .cryptocurrency-choose-content {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cybersecurity-banner-area .container-fluid {
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cybersecurity-banner-area .container-fluid {
+    padding-right: 30px;
+  }
+}/*# sourceMappingURL=rtl.css.map */

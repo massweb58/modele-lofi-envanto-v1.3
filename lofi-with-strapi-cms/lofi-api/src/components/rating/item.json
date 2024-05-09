@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rating_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": "ri-star-fill",
+      "required": true
+    }
+  }
+}

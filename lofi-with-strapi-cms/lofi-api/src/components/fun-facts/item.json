@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_fun_facts_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "string",
+      "default": "ri-stack-fill",
+      "required": true
+    },
+    "iconClassName": {
+      "type": "string",
+      "default": "icon",
+      "required": true
+    }
+  }
+}

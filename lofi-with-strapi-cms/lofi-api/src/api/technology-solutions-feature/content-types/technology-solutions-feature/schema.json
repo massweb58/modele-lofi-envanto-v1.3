@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "technology_solutions_features",
+  "info": {
+    "singularName": "technology-solutions-feature",
+    "pluralName": "technology-solutions-features",
+    "displayName": "Technology Solutions - Feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "OUR FEATURES",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Be Everywhere Your Customers Are",
+      "required": true
+    },
+    "shortDec": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "FeaturesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.item"
+    }
+  }
+}
